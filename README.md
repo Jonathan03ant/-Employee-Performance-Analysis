@@ -1,5 +1,5 @@
 # -Employee-Performance-Analysis
-### Memebers
+### Members
 - Samuel Abraham (101249272)
 - Jonnathan
 - Hasin
