@@ -1,3 +1,5 @@
 # -Employee-Performance-Analysis
-
-## Push to sam branch
+### Memebers
+- Samuel Abraham (101249272)
+- Jonnathan
+- Hasin
