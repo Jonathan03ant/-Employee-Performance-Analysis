@@ -1,4 +1,6 @@
 
+
+
 '''
     Performance_Metrics Class:
         * A class to manage different perormances (which are percepted from the Employee's Env)
@@ -24,7 +26,7 @@ class Performance_metrix:
             }
         elif role == "Sales":
             metrics = {
-                
+                "sales_made":0,
             }
         elif role == "Manager":
             metrics = {
