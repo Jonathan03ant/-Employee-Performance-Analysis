@@ -1,8 +1,8 @@
 
-from PerformanceMetrics import Performance_metrix
+from PerformanceMetrics import Performance_metrics
 
 class Employee:
-    def __init__(self, employee_id, name, role, salary):
+    def __init__(self, employee_id, name, department, role, salary):
         
         """
         Represents an Employee with relevant information and metrics tracking.
@@ -12,15 +12,17 @@ class Employee:
         - name (str): Name of the employee.
         - role (str): Role of the employee (HR, Manager, Sales, Intern).
         - salary (float): Salary of the employee.
-        - performance_metrics (PerformanceMetrics): Metrics tracked based on role.
+        - performance_metrics (PerformanceMetrics): Metrics tracked based on role and department.
+            Returns a metrics dict
         - performance_summary (str): Summary of the employee's overall performance.
         """
         
         self.employee_id = employee_id
         self.name = name
+        self.department = department
         self.role = role
         self.salary = salary
-        self.performance_metrics = Performance_metrix(role)
+        self.performance_metrics = Performance_metrics(role, department) #returns a metrix dict
         self.performance_summary = ""
         
     def get_performance_metrics(self):
@@ -28,3 +30,14 @@ class Employee:
         Returns the performance metrics dictionary for the employee.
         """
         return self.performance_metrics.metrics
+    
+    def print_employee(self):
+        """
+        Prints the details of the employee, excluding the performance summary.
+        """
+        print(f"Employee ID: {self.employee_id}")
+        print(f"Name: {self.name}")
+        print(f"Role: {self.role}")
+        print(f"Department: {self.department}")
+        print(f"Salary: {self.salary}")
+        print(f"Metrics: {self.get_performance_metrics()}")
