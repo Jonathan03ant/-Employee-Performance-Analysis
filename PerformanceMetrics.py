@@ -12,15 +12,6 @@ They are effectively observations about the performance of the employee.
 '''
 
 class Performance_metrics:
-
-    dept_num = {
-        1 : "engineering",
-        2 : "HR",
-        3: "Marketing",
-        4: "Sales",
-        5: "Support",
-        6: "Leadership"
-    }
     
     def __init__(self, department, role):
         self.role = role
@@ -62,7 +53,6 @@ class Performance_metrics:
                     "deployments_made": 0,
                     "incidents_resolved": 0,
                     "build_pipeline_failures": 0,
-                    "infrastructure_changes": 0,
                     "system_uptime_percentage": 0.0,  # Tracks system uptime percentage (target is usually high, e.g., 99.9%)
                     "automation_scripts_created": 0  # Measures scripts created to automate tasks
                 })
@@ -89,12 +79,13 @@ class Performance_metrics:
                     #HUMAN_RELATIONs
                     #TALENT_ACQUISITION
                     
-        elif department == "HR":
+        elif department == "hr":
             # Default metrics for all HR roles
             metrics = {
                 "interviews_facilitated": 0,
                 "offers_facilitated": 0,
-                "interview_offer_conversion_rate": 0  # Percentage conversion rate
+                "interview_offer_conversion_rate": 0,  # Percentage conversion rate
+                "issues_resolved": 0
             }
 
             # Additional metrics based on role
@@ -129,20 +120,23 @@ class Performance_metrics:
                     "interns_recruited_for_offer": 0,
                     "early_career_recruited_for_interview": 0,
                     "early_career_recruited_for_offer": 0,
+                    "total_employees_recruited_for_interview": 0,
+                    "total_employees_recruited_for_offer": 0,
                     
                     # Key Metrics for Effective Talent Acquisition
                     "offer_acceptance_rate": 0,  # Percentage of offers accepted
                     "average_time_to_fill_position": 0,  # Average number of days to fill open positions
                 })
                 
-        elif department == "Marketing":
+        elif department == "marketing":
             metrics = {
                 "campaign_roi": 0,
                 "leads_generated": 0,
                 "social_media_engagement": 0,
+                "marketing_initiatives_taken": 0
             }
 
-        elif department == "Sales":
+        elif department == "sales":
             
             metrics = {
                 "revenue_generated": 0, #Total sales revenue from cars
@@ -153,24 +147,44 @@ class Performance_metrics:
                 "additional_sales_revenue": 0 #Revenue generated from selling service, warranty contracts                
                 
             }
-        elif department == "Support":
+        elif department == "support":
             
             metrics = {
                 "tickets_resolved": 0, #Number of tickets resolved
                 "satisfaction_score": 0, #Satisfaction from the receiver
                 "avg_response_time": 0, #Time taken to respond to a ticket
                 "escalation_rate": 0 #Tickets escalated for further assistance
-                
             }
-        elif department == "Leadership":
+
+            if role == "call_center":
+                metrics.update({
+                    "calls_answered": 0
+                })
+            elif role == "it_support":
+                metrics.update({
+                    "average_resolution_time": 0
+                })
+        elif department == "leadership":
             
             metrics = {
                 "goal_achievement": 0,
-                "team_retention_rate": 0,
-                "innovation_index": 0, #Number of new initiatives started
-                "budget_adherence": 0 #Percentage over/under budget
-                
+                "budget_adherence": 0.0 #Percentage over/under budget
             }
+            if role == "executive":
+                metrics.update({
+                    "employee_engagement_score": 0,
+                    "innovation_index": 0
+                })
+            
+            elif role == "manager":
+                metrics.update({
+                    "team_retention_rate": 0
+                })
+
+            elif role == "supervisor":
+                metrics.update({
+                    "employee_engagement_sessions": 0
+                })
             
         return metrics
             
