@@ -30,5 +30,4 @@ employee_1.print_employee()
             (A= Return employyes with Something = "Promote")
             (B= Return employyes with Something = "Give Warning")
             (C= Return employyes with Something = "...")
-
 '''

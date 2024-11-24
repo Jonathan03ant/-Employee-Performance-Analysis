@@ -22,7 +22,7 @@ class Employee:
         self.department = department
         self.role = role
         self.salary = salary
-        self.performance_metrics = Performance_metrics(role, department) #returns a metrix dict
+        self.performance_metrics = Performance_metrics(department,role) #returns a metrix dict
         self.performance_summary = ""
         
     def get_performance_metrics(self):
