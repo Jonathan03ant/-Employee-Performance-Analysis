@@ -1,151 +1,151 @@
-Employee ID	Employee Name	Email Address	Department Name	Department Number
-E0001	Kyle Chavez	kchavez18@ford.com	Marketing	3
-E0002	Philip Ortega	portega9@ford.com	Marketing	3
-E0003	John Lucas	jlucas27@ford.com	Leadership	6
-E0004	Jeffrey Butler	jbutler2@ford.com	engineering	1
-E0005	Daniel Johnson	djohnson18@ford.com	Marketing	3
-E0006	Kimberly Friedman	kfriedman6@ford.com	Leadership	6
-E0007	Angela Peterson	apeterson21@ford.com	engineering	1
-E0008	Jessica Rodriguez	jrodriguez25@ford.com	engineering	1
-E0009	Sheila Barry	sbarry20@ford.com	Sales	4
-E0010	Beverly Castro	bcastro17@ford.com	HR	2
-E0011	Bradley Perez MD	bmd27@ford.com	Sales	4
-E0012	Lori Jones DVM	ldvm9@ford.com	HR	2
-E0013	James Wallace	jwallace12@ford.com	engineering	1
-E0014	Carlos Cook	ccook28@ford.com	Leadership	6
-E0015	Kara Rich	krich3@ford.com	engineering	1
-E0016	Jonathan Burgess	jburgess4@ford.com	Support	5
-E0017	Dana Perkins	dperkins22@ford.com	Leadership	6
-E0018	Thomas Rodriguez	trodriguez20@ford.com	Support	5
-E0019	Kyle Jones	kjones13@ford.com	Support	5
-E0020	Cheyenne Harris	charris10@ford.com	HR	2
-E0021	Michael Robinson	mrobinson1@ford.com	Support	5
-E0022	Richard Smith	rsmith24@ford.com	engineering	1
-E0023	Charles Gordon	cgordon4@ford.com	HR	2
-E0024	Richard Daugherty	rdaugherty8@ford.com	Leadership	6
-E0025	Kathy Roberts	kroberts11@ford.com	Sales	4
-E0026	Christopher Cohen	ccohen23@ford.com	Leadership	6
-E0027	Christopher Calhoun	ccalhoun6@ford.com	Support	5
-E0028	Jennifer Kennedy	jkennedy18@ford.com	Marketing	3
-E0029	Lisa Smith	lsmith11@ford.com	Marketing	3
-E0030	Yolanda Tran	ytran25@ford.com	Leadership	6
-E0031	Shannon Davis	sdavis22@ford.com	Marketing	3
-E0032	Charles Lewis	clewis18@ford.com	engineering	1
-E0033	Teresa Chan	tchan4@ford.com	engineering	1
-E0034	Steven Cole	scole2@ford.com	HR	2
-E0035	Laurie Rosales	lrosales10@ford.com	Support	5
-E0036	Darrell Scott	dscott26@ford.com	Marketing	3
-E0037	James Henderson	jhenderson24@ford.com	Support	5
-E0038	Daniel Gamble	dgamble24@ford.com	Sales	4
-E0039	Christina Blackwell	cblackwell20@ford.com	engineering	1
-E0040	Mr. Julian Juarez	mjuarez7@ford.com	engineering	1
-E0041	Cheryl Leonard	cleonard7@ford.com	engineering	1
-E0042	Todd Vega	tvega16@ford.com	HR	2
-E0043	Dr. Andrea Valdez	dvaldez13@ford.com	Sales	4
-E0044	Diane Wright	dwright7@ford.com	Sales	4
-E0045	Ashley Freeman	afreeman26@ford.com	engineering	1
-E0046	Aaron Morgan	amorgan27@ford.com	Leadership	6
-E0047	Melissa Potter	mpotter28@ford.com	engineering	1
-E0048	Luke Smith	lsmith24@ford.com	engineering	1
-E0049	Ashley Buchanan	abuchanan22@ford.com	engineering	1
-E0050	Janet Orozco	jorozco23@ford.com	Support	5
-E0051	Samuel Lowery	slowery3@ford.com	Marketing	3
-E0052	Kenneth Patel	kpatel4@ford.com	Sales	4
-E0053	Charles Nguyen	cnguyen8@ford.com	Support	5
-E0054	Natalie Estrada	nestrada3@ford.com	Marketing	3
-E0055	Sabrina Sanchez	ssanchez27@ford.com	Sales	4
-E0056	James Anderson	janderson20@ford.com	Support	5
-E0057	Andrea Lozano	alozano4@ford.com	Sales	4
-E0058	Ashley Garcia	agarcia14@ford.com	Marketing	3
-E0059	Samuel Ortega	sortega10@ford.com	HR	2
-E0060	Holly Hodge	hhodge14@ford.com	Sales	4
-E0061	Jessica Horton	jhorton12@ford.com	Leadership	6
-E0062	Marie Gibbs	mgibbs20@ford.com	HR	2
-E0063	Michelle Dodson	mdodson10@ford.com	HR	2
-E0064	Jeffrey Rose	jrose15@ford.com	Marketing	3
-E0065	Daniel Goodwin	dgoodwin9@ford.com	Marketing	3
-E0066	Joe Hayden	jhayden28@ford.com	Leadership	6
-E0067	Jade Roy	jroy4@ford.com	Marketing	3
-E0068	William Bryan	wbryan8@ford.com	HR	2
-E0069	Megan Wagner	mwagner11@ford.com	engineering	1
-E0070	Diane Garcia	dgarcia22@ford.com	Sales	4
-E0071	Diana Hughes	dhughes20@ford.com	Marketing	3
-E0072	Ralph Lin	rlin16@ford.com	HR	2
-E0073	Brandy Miller	bmiller19@ford.com	Support	5
-E0074	Lawrence Palmer	lpalmer22@ford.com	Support	5
-E0075	David Rice	drice27@ford.com	Support	5
-E0076	Suzanne Jenkins	sjenkins11@ford.com	Sales	4
-E0077	Frederick Ruiz	fruiz14@ford.com	engineering	1
-E0078	Robin Johns	rjohns21@ford.com	Leadership	6
-E0079	Kelsey Patel	kpatel5@ford.com	Marketing	3
-E0080	Gabriel Bennett	gbennett2@ford.com	engineering	1
-E0081	Johnny Spence	jspence18@ford.com	Marketing	3
-E0082	Jennifer Roberson	jroberson28@ford.com	HR	2
-E0083	Amy Olsen	aolsen17@ford.com	Leadership	6
-E0084	John Craig	jcraig12@ford.com	engineering	1
-E0085	Lynn Sanders	lsanders6@ford.com	Marketing	3
-E0086	Ashley Jenkins	ajenkins12@ford.com	Support	5
-E0087	Jason Cross	jcross25@ford.com	Sales	4
-E0088	Alexandria Lewis	alewis17@ford.com	Leadership	6
-E0089	Jonathan Valentine	jvalentine9@ford.com	Leadership	6
-E0090	Melissa Sims	msims2@ford.com	Marketing	3
-E0091	Nicole Wilson	nwilson5@ford.com	Sales	4
-E0092	Mathew Mccarthy	mmccarthy8@ford.com	HR	2
-E0093	Charles Martin	cmartin13@ford.com	HR	2
-E0094	Eric Newton	enewton16@ford.com	Sales	4
-E0095	Richard West	rwest13@ford.com	Support	5
-E0096	Donna Luna	dluna1@ford.com	Marketing	3
-E0097	Charles Baird	cbaird22@ford.com	Leadership	6
-E0098	Jill Christensen	jchristensen18@ford.com	Leadership	6
-E0099	Teresa Lyons	tlyons9@ford.com	Leadership	6
-E0100	Ryan Wells	rwells16@ford.com	engineering	1
-E0101	Savannah Williams	swilliams28@ford.com	HR	2
-E0102	Steven Sweeney	ssweeney18@ford.com	Marketing	3
-E0103	Eric Scott	escott3@ford.com	engineering	1
-E0104	Matthew Evans	mevans12@ford.com	Sales	4
-E0105	Amanda Kramer	akramer27@ford.com	HR	2
-E0106	Molly Payne	mpayne10@ford.com	Support	5
-E0107	Ronald Martin	rmartin11@ford.com	Sales	4
-E0108	Lauren Payne	lpayne9@ford.com	Marketing	3
-E0109	Meghan Thompson	mthompson3@ford.com	engineering	1
-E0110	Amy Mejia	amejia11@ford.com	Leadership	6
-E0111	Laura Downs	ldowns16@ford.com	Marketing	3
-E0112	Destiny Rosales	drosales11@ford.com	Sales	4
-E0113	Jennifer Russell	jrussell16@ford.com	engineering	1
-E0114	Brandi Andrews MD	bmd8@ford.com	Support	5
-E0115	Christopher Wilson	cwilson6@ford.com	Support	5
-E0116	Beth Giles	bgiles24@ford.com	Leadership	6
-E0117	Anna Hughes	ahughes3@ford.com	engineering	1
-E0118	Alexandra Solis	asolis19@ford.com	Leadership	6
-E0119	Brent Oconnell	boconnell26@ford.com	Sales	4
-E0120	Karen Nguyen	knguyen3@ford.com	engineering	1
-E0121	Luke Mcclain	lmcclain17@ford.com	Leadership	6
-E0122	David Cohen	dcohen17@ford.com	HR	2
-E0123	Sandra Ali	sali27@ford.com	Sales	4
-E0124	Shannon Taylor	staylor4@ford.com	HR	2
-E0125	Kevin Smith	ksmith28@ford.com	Leadership	6
-E0126	Michael Rice	mrice5@ford.com	Support	5
-E0127	Andrea Kennedy	akennedy1@ford.com	Sales	4
-E0128	Brian Hartman Jr.	bjr.26@ford.com	Sales	4
-E0129	Carla Torres	ctorres25@ford.com	engineering	1
-E0130	Jaime Nelson	jnelson22@ford.com	Support	5
-E0131	Jonathan Garner	jgarner22@ford.com	HR	2
-E0132	Debbie Martinez	dmartinez15@ford.com	Support	5
-E0133	Kenneth Brown	kbrown12@ford.com	Sales	4
-E0134	Robert Phillips	rphillips1@ford.com	Leadership	6
-E0135	Luis Floyd	lfloyd5@ford.com	Support	5
-E0136	Mr. Joshua Gardner MD	mmd21@ford.com	HR	2
-E0137	Dr. Morgan Cardenas MD	dmd16@ford.com	Sales	4
-E0138	Alexa Owens	aowens21@ford.com	Marketing	3
-E0139	Joan Pierce	jpierce15@ford.com	Sales	4
-E0140	Howard Clark	hclark20@ford.com	HR	2
-E0141	Thomas Campos	tcampos6@ford.com	HR	2
-E0142	Matthew Collins	mcollins4@ford.com	engineering	1
-E0143	Kathleen Eaton	keaton16@ford.com	Leadership	6
-E0144	Beth Hayes	bhayes20@ford.com	Marketing	3
-E0145	James Briggs	jbriggs17@ford.com	Sales	4
-E0146	Steven Thompson	sthompson13@ford.com	engineering	1
-E0147	George Rodriguez	grodriguez19@ford.com	Sales	4
-E0148	Anne Alvarado	aalvarado11@ford.com	Sales	4
-E0149	Justin Hart	jhart14@ford.com	Sales	4
-E0150	Aaron Peterson	apeterson17@ford.com	Leadership	6
+Employee ID,Employee Name,Email Address,Department Name,Role,tickets_assigned,tickets_finished,prs_opened_per_week,prs_merged_per_week,prs_rejected_per_week,deployments_made,incidents_resolved,build_pipeline_failures,system_uptime_percentage,automation_scripts_created,interviews_facilitated,offers_facilitated,interview_offer_conversion_rate,issues_resolved,offers_completed,employee_satisfaction_score,employee_engagement_sessions,recognition_awards_given,hr_policy_updates_made,compliance_issues_resolved,training_sessions_organized,diversity_training_sessions,diversity_hiring_programs_executed,career_development_sessions,promotion_rate,test_cases_written,test_cases_executed,bugs_reported,automation_coverage,test_documentation_created,interns_recruited_for_interview,interns_recruited_for_offer,early_career_recruited_for_interview,early_career_recruited_for_offer,total_employees_recruited_for_interview,total_employees_recruited_for_offer,offer_acceptance_rate,average_time_to_fill_position,goal_achievement,budget_adherence,team_retention_rate,tickets_resolved,satisfaction_score,avg_response_time,escalation_rate,average_resolution_time,campaign_roi,leads_generated,social_media_engagement,marketing_initiatives_taken,commits_per_week,bugs_fixed,features_deployed,code_review_quality_score,revenue_generated,deals_closed,leads_assigned,conversion_rate,avg_sales_cycle,additional_sales_revenue,calls_answered,employee_engagement_score,innovation_index,data_pipelines_created,pipelines_success_rate,data_quality_issues_fixed,etl_jobs_deployed,data_latency_improvements
+E0001,Kimberly Davis,kdavis15@ford.com,engineering,devops_engineer,24,39,13,34,35,23,34,15,90.26,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0002,Julie Miller,jmiller3@ford.com,hr,human_relations,,,,,,,,,,,5,44,23,26,43,46,1,43,18,18,21,37,37,43,39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0003,Zachary Lynch,zlynch17@ford.com,engineering,test_engineer,14,13,1,10,21,,,,,,,,,,,,,,,,,,,,,14,37,18,40,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0004,Joshua Moreno,jmoreno6@ford.com,hr,talent_acquisition,,,,,,,,,,,16,2,37,8,,,,,,,,,,,,,,,,,26,25,31,11,1,10,21,23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0005,Robert Leon,rleon14@ford.com,hr,talent_acquisition,,,,,,,,,,,43,12,9,48,,,,,,,,,,,,,,,,,41,34,8,14,6,13,1,45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0006,Andre Foster,afoster13@ford.com,leadership,manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,97.67,40,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0007,Paul Brown,pbrown12@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,16,31,31,24,,,,,,,,,,,,,,,,,,,,,,
+E0008,Tyrone Gonzalez,tgonzalez21@ford.com,hr,talent_acquisition,,,,,,,,,,,32,33,27,32,,,,,,,,,,,,,,,,,23,7,28,1,10,17,39,27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0009,Brittany Anderson,banderson19@ford.com,engineering,devops_engineer,50,9,6,46,26,25,36,7,98.77,42,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0010,Dennis Williams,dwilliams18@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37,48,32,22,24,,,,,,,,,,,,,,,,,,,,,,
+E0011,Jacob Woods,jwoods4@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,26,32,21,41,,,,,,,,,,,,,,,,,,,,,,
+E0012,Kevin Fernandez,kfernandez1@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28,37,32,46,10,,,,,,,,,,,,,,,,,,,,,,
+E0013,Benjamin Mills,bmills11@ford.com,hr,human_relations,,,,,,,,,,,6,18,43,14,7,19,50,8,34,12,13,17,26,43,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0014,Frances Nguyen,fnguyen10@ford.com,hr,talent_acquisition,,,,,,,,,,,21,22,20,14,,,,,,,,,,,,,,,,,39,24,33,32,40,28,3,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0015,Sarah Webb,swebb27@ford.com,leadership,manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16,90.28,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0016,Gary Johnson,gjohnson27@ford.com,leadership,manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25,92.02,40,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0017,Abigail Mitchell,amitchell21@ford.com,marketing,brand_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17,17,37,26,,,,,,,,,,,,,,,,,,
+E0018,Daniel Clay,dclay24@ford.com,engineering,software_engineer,27,19,29,30,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22,25,31,35,,,,,,,,,,,,,,
+E0019,Andrew Galvan,agalvan10@ford.com,sales,sales_rep,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23,5,18,20,32,49,,,,,,,,
+E0020,Amanda Pierce,apierce3@ford.com,sales,sales_rep,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,13,19,37,12,9,,,,,,,,
+E0021,Steven Schultz,sschultz23@ford.com,leadership,supervisor,,,,,,,,,,,,,,,,,44,,,,,,,,,,,,,,,,,,,,,,18,92.3,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0022,Randy Vega,rvega8@ford.com,marketing,content_creator,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,33,40,25,,,,,,,,,,,,,,,,,,
+E0023,Cody Richardson,crichardson10@ford.com,support,call_center,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,35,32,9,,,,,,,,,,,,,,,,18,,,,,,,
+E0024,Brandon Hendrix,bhendrix18@ford.com,engineering,software_engineer,39,23,2,50,36,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42,5,27,31,,,,,,,,,,,,,,
+E0025,Mark Cordova,mcordova16@ford.com,marketing,brand_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,41,1,0,,,,,,,,,,,,,,,,,,
+E0026,Shane White,swhite21@ford.com,hr,human_relations,,,,,,,,,,,6,27,19,35,3,48,17,6,19,10,40,18,16,29,41,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0027,Brett Durham,bdurham13@ford.com,leadership,supervisor,,,,,,,,,,,,,,,,,37,,,,,,,,,,,,,,,,,,,,,,31,93.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0028,Bryan Wilkinson,bwilkinson1@ford.com,hr,talent_acquisition,,,,,,,,,,,7,4,23,40,,,,,,,,,,,,,,,,,20,18,39,3,13,19,44,22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0029,Ronald Mendez,rmendez2@ford.com,leadership,executive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,49,99.97,,,,,,,,,,,,,,,,,,,,,,28,49,,,,,
+E0030,Raymond Hill,rhill7@ford.com,leadership,supervisor,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,1,99.3,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0031,Ricky Miller,rmiller3@ford.com,leadership,executive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22,99.85,,,,,,,,,,,,,,,,,,,,,,33,41,,,,,
+E0032,Adam Velez,avelez1@ford.com,leadership,manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,92.2,31,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0033,Brenda Velez,bvelez17@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19,28,8,43,40,,,,,,,,,,,,,,,,,,,,,,
+E0034,Lori Moore,lmoore5@ford.com,support,call_center,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,22,23,17,,,,,,,,,,,,,,,,18,,,,,,,
+E0035,Brandon Davis,bdavis3@ford.com,engineering,test_engineer,25,22,36,31,49,,,,,,,,,,,,,,,,,,,,,21,29,39,24,29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0036,Jessica Payne,jpayne25@ford.com,engineering,test_engineer,48,15,11,36,37,,,,,,,,,,,,,,,,,,,,,10,35,37,6,34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0037,Samuel Mccoy,smccoy8@ford.com,marketing,digital_marketer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34,20,8,31,,,,,,,,,,,,,,,,,,
+E0038,Kimberly Tate,ktate17@ford.com,leadership,executive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44,97.95,,,,,,,,,,,,,,,,,,,,,,33,14,,,,,
+E0039,Kimberly Christian,kchristian8@ford.com,leadership,supervisor,,,,,,,,,,,,,,,,,31,,,,,,,,,,,,,,,,,,,,,,40,94.09,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0040,Susan Grimes,sgrimes15@ford.com,engineering,software_engineer,0,27,43,27,37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28,30,3,7,,,,,,,,,,,,,,
+E0041,Shannon Long,slong6@ford.com,hr,human_relations,,,,,,,,,,,25,39,24,21,40,19,7,42,12,36,14,18,40,25,16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0042,Christina Velazquez,cvelazquez2@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13,42,15,49,30,,,,,,,,,,,,,,,,,,,,,,
+E0043,Kevin Bailey,kbailey21@ford.com,hr,human_relations,,,,,,,,,,,24,45,18,14,39,41,5,4,15,30,50,29,41,28,32,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0044,Michael Fields,mfields12@ford.com,marketing,content_creator,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16,28,10,38,,,,,,,,,,,,,,,,,,
+E0045,Audrey Skinner,askinner11@ford.com,sales,account_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30,18,33,48,16,11,,,,,,,,
+E0046,Linda Harris,lharris20@ford.com,sales,sales_rep,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,5,27,27,46,41,,,,,,,,
+E0047,Michelle Hall,mhall26@ford.com,hr,human_relations,,,,,,,,,,,47,3,21,23,47,44,12,35,13,23,1,2,7,10,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0048,Hailey Johnson,hjohnson10@ford.com,sales,sales_rep,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,25,29,31,42,17,,,,,,,,
+E0049,Michael Moore,mmoore3@ford.com,marketing,brand_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,43,28,39,42,,,,,,,,,,,,,,,,,,
+E0050,Jessica Richards,jrichards24@ford.com,leadership,executive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22,94.47,,,,,,,,,,,,,,,,,,,,,,19,50,,,,,
+E0051,Amber Blackburn,ablackburn1@ford.com,hr,talent_acquisition,,,,,,,,,,,44,11,16,39,,,,,,,,,,,,,,,,,17,14,18,7,21,18,22,13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0052,Sabrina Hensley,shensley15@ford.com,support,call_center,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,46,8,12,22,,,,,,,,,,,,,,,,41,,,,,,,
+E0053,Heather Meyer,hmeyer16@ford.com,engineering,devops_engineer,48,2,2,5,27,45,15,21,95.9,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0054,Derrick Odonnell,dodonnell3@ford.com,leadership,supervisor,,,,,,,,,,,,,,,,,47,,,,,,,,,,,,,,,,,,,,,,8,90.01,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0055,William Ryan,wryan5@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,29,30,1,43,,,,,,,,,,,,,,,,,,,,,,
+E0056,Phillip Perkins,pperkins6@ford.com,hr,human_relations,,,,,,,,,,,8,2,39,42,47,27,43,41,27,49,33,28,3,28,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0057,Kristina Kennedy,kkennedy14@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,28,6,8,26,,,,,,,,,,,,,,,,,,,,,,
+E0058,Michelle Vazquez,mvazquez13@ford.com,hr,talent_acquisition,,,,,,,,,,,14,46,22,35,,,,,,,,,,,,,,,,,49,0,24,29,24,17,43,44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0059,Jeremy Smith,jsmith10@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,20,47,39,40,,,,,,,,,,,,,,,,,,,,,,
+E0060,Jason Brown,jbrown23@ford.com,sales,sales_rep,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,36,50,3,6,32,,,,,,,,
+E0061,Mark Owens,mowens8@ford.com,marketing,brand_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,46,48,42,39,,,,,,,,,,,,,,,,,,
+E0062,Diane Hendrix,dhendrix23@ford.com,leadership,manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28,95.59,33,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0063,Charles Greer,cgreer10@ford.com,engineering,devops_engineer,8,48,33,27,6,35,43,6,90.82,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0064,Kimberly Price,kprice2@ford.com,engineering,devops_engineer,41,7,27,35,46,5,33,41,97.23,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0065,John Thompson,jthompson10@ford.com,leadership,manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,95.89,24,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0066,Michael Cook,mcook11@ford.com,leadership,supervisor,,,,,,,,,,,,,,,,,27,,,,,,,,,,,,,,,,,,,,,,18,92.7,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0067,Allison Klein,aklein19@ford.com,marketing,brand_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,31,14,17,43,,,,,,,,,,,,,,,,,,
+E0068,Brent Blair,bblair22@ford.com,sales,account_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,15,8,27,31,22,,,,,,,,
+E0069,Abigail Webster,awebster27@ford.com,marketing,content_creator,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,37,49,37,,,,,,,,,,,,,,,,,,
+E0070,Justin Miller,jmiller21@ford.com,sales,account_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,45,15,44,50,43,,,,,,,,
+E0071,Susan Thomas,sthomas7@ford.com,marketing,content_creator,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38,3,21,16,,,,,,,,,,,,,,,,,,
+E0072,Monica Smith,msmith14@ford.com,hr,human_relations,,,,,,,,,,,36,47,8,24,27,50,44,42,3,34,25,12,46,40,33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0073,Scott Pugh,spugh26@ford.com,marketing,digital_marketer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50,12,22,30,,,,,,,,,,,,,,,,,,
+E0074,Alexander Jones,ajones15@ford.com,leadership,manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,99.46,7,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0075,Eric Buchanan,ebuchanan1@ford.com,hr,human_relations,,,,,,,,,,,19,35,22,34,18,12,11,6,26,45,15,39,42,33,44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0076,Christina Walker,cwalker1@ford.com,leadership,manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,97.27,5,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0077,Ruben Cox,rcox16@ford.com,sales,sales_rep,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,39,28,33,26,40,46,,,,,,,,
+E0078,Jade Mason,jmason13@ford.com,leadership,executive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48,97.54,,,,,,,,,,,,,,,,,,,,,,50,30,,,,,
+E0079,Mary Adams,madams19@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50,27,26,13,31,,,,,,,,,,,,,,,,,,,,,,
+E0080,Carolyn Wilson,cwilson2@ford.com,sales,account_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,49,21,33,24,43,33,,,,,,,,
+E0081,Oscar Torres,otorres14@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19,31,12,40,42,,,,,,,,,,,,,,,,,,,,,,
+E0082,Patricia Thomas,pthomas26@ford.com,leadership,supervisor,,,,,,,,,,,,,,,,,8,,,,,,,,,,,,,,,,,,,,,,27,98.99,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0083,Theodore Avery,tavery2@ford.com,marketing,brand_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41,14,39,13,,,,,,,,,,,,,,,,,,
+E0084,Lisa Perez,lperez14@ford.com,leadership,supervisor,,,,,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,45,97.51,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0085,Katie Rogers,krogers4@ford.com,hr,talent_acquisition,,,,,,,,,,,16,10,19,15,,,,,,,,,,,,,,,,,0,48,23,13,2,22,27,23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0086,Jacob Contreras,jcontreras9@ford.com,leadership,manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25,97.01,14,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0087,Alejandra Shaffer,ashaffer8@ford.com,hr,talent_acquisition,,,,,,,,,,,19,27,0,25,,,,,,,,,,,,,,,,,28,18,22,30,26,29,36,16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0088,Mckenzie Walter,mwalter16@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33,15,33,5,2,,,,,,,,,,,,,,,,,,,,,,
+E0089,Lisa Santos,lsantos16@ford.com,leadership,manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,97.59,41,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0090,Cynthia Mcintosh,cmcintosh2@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38,42,44,50,47,,,,,,,,,,,,,,,,,,,,,,
+E0091,Katherine Willis,kwillis8@ford.com,support,call_center,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33,44,1,46,,,,,,,,,,,,,,,,14,,,,,,,
+E0092,Leslie Norris,lnorris12@ford.com,leadership,manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26,92.09,33,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0093,James Oliver,joliver24@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,28,30,31,38,,,,,,,,,,,,,,,,,,,,,,
+E0094,Carol Long,clong25@ford.com,support,call_center,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30,46,15,46,,,,,,,,,,,,,,,,12,,,,,,,
+E0095,John Horne,jhorne1@ford.com,engineering,software_engineer,4,26,11,35,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34,44,5,31,,,,,,,,,,,,,,
+E0096,Chad Smith,csmith3@ford.com,engineering,software_engineer,42,50,4,40,21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,48,26,18,,,,,,,,,,,,,,
+E0097,Caroline Rivera,crivera14@ford.com,hr,human_relations,,,,,,,,,,,40,47,43,20,2,48,32,6,21,12,19,2,21,50,27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0098,Danny Herrera,dherrera18@ford.com,leadership,executive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,94.17,,,,,,,,,,,,,,,,,,,,,,46,26,,,,,
+E0099,Amy Allen,aallen24@ford.com,sales,sales_rep,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,26,3,40,32,14,,,,,,,,
+E0100,Stephanie Jones,sjones4@ford.com,leadership,supervisor,,,,,,,,,,,,,,,,,7,,,,,,,,,,,,,,,,,,,,,,27,94.07,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0101,Sara Young,syoung14@ford.com,hr,talent_acquisition,,,,,,,,,,,18,33,18,30,,,,,,,,,,,,,,,,,5,13,12,11,40,32,34,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0102,Mark Cook,mcook23@ford.com,engineering,devops_engineer,46,17,4,6,10,17,12,45,95.63,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0103,Vanessa Stewart,vstewart21@ford.com,hr,human_relations,,,,,,,,,,,30,1,21,10,6,28,35,17,43,11,18,43,47,20,42,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0104,Juan Henderson,jhenderson23@ford.com,marketing,content_creator,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33,34,30,35,,,,,,,,,,,,,,,,,,
+E0105,Samuel Shepherd,sshepherd28@ford.com,marketing,digital_marketer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,34,43,7,,,,,,,,,,,,,,,,,,
+E0106,Cody Roberts,croberts14@ford.com,hr,talent_acquisition,,,,,,,,,,,7,48,22,21,,,,,,,,,,,,,,,,,50,26,16,21,34,30,31,48,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0107,Robert Nichols,rnichols4@ford.com,marketing,brand_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,49,11,12,8,,,,,,,,,,,,,,,,,,
+E0108,Peter Rivera,privera6@ford.com,engineering,test_engineer,36,27,20,1,47,,,,,,,,,,,,,,,,,,,,,8,12,5,42,21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0109,Daniel Holland,dholland18@ford.com,marketing,brand_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32,23,24,35,,,,,,,,,,,,,,,,,,
+E0110,Mikayla King,mking20@ford.com,leadership,executive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35,94.11,,,,,,,,,,,,,,,,,,,,,,23,5,,,,,
+E0111,Todd Jackson,tjackson4@ford.com,support,call_center,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17,24,10,24,,,,,,,,,,,,,,,,35,,,,,,,
+E0112,Ethan Walter,ewalter10@ford.com,engineering,test_engineer,38,39,48,41,18,,,,,,,,,,,,,,,,,,,,,37,34,37,5,49,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0113,Andrea Williams,awilliams17@ford.com,marketing,brand_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,47,21,39,37,,,,,,,,,,,,,,,,,,
+E0114,Alan Lewis,alewis10@ford.com,sales,account_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37,8,24,14,28,20,,,,,,,,
+E0115,Paige Gibson,pgibson13@ford.com,hr,human_relations,,,,,,,,,,,44,11,6,28,5,37,35,5,25,47,44,9,16,20,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0116,Alyssa Brown,abrown9@ford.com,support,call_center,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17,27,44,23,,,,,,,,,,,,,,,,43,,,,,,,
+E0117,Laura Juarez,ljuarez11@ford.com,sales,sales_rep,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44,2,32,5,7,38,,,,,,,,
+E0118,Benjamin Torres,btorres4@ford.com,sales,account_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42,41,25,28,9,2,,,,,,,,
+E0119,Lisa Wagner,lwagner9@ford.com,hr,talent_acquisition,,,,,,,,,,,47,49,11,27,,,,,,,,,,,,,,,,,39,8,31,24,17,23,18,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0120,Mary Peters,mpeters17@ford.com,hr,talent_acquisition,,,,,,,,,,,34,22,29,23,,,,,,,,,,,,,,,,,26,19,37,0,40,6,12,16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0121,Caitlyn Young,cyoung28@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50,32,45,40,37,,,,,,,,,,,,,,,,,,,,,,
+E0122,Luke Martin,lmartin19@ford.com,sales,account_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,21,39,18,50,23,,,,,,,,
+E0123,Cynthia Collins,ccollins15@ford.com,engineering,data_engineer,21,11,42,36,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36,13,17,5,11
+E0124,Jennifer Martin,jmartin5@ford.com,leadership,manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,91.45,49,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0125,Paula Alvarez,palvarez19@ford.com,marketing,brand_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,25,2,25,,,,,,,,,,,,,,,,,,
+E0126,Dennis Smith,dsmith22@ford.com,marketing,digital_marketer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42,18,28,12,,,,,,,,,,,,,,,,,,
+E0127,Sherri Bradley,sbradley5@ford.com,marketing,content_creator,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38,43,38,33,,,,,,,,,,,,,,,,,,
+E0128,Hunter Patterson,hpatterson15@ford.com,support,call_center,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,21,24,16,,,,,,,,,,,,,,,,46,,,,,,,
+E0129,Matthew Morales,mmorales13@ford.com,leadership,supervisor,,,,,,,,,,,,,,,,,13,,,,,,,,,,,,,,,,,,,,,,44,94.51,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0130,Tiffany Patrick,tpatrick28@ford.com,engineering,test_engineer,4,6,24,50,24,,,,,,,,,,,,,,,,,,,,,45,28,32,11,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0131,Shannon Jones,sjones6@ford.com,hr,talent_acquisition,,,,,,,,,,,25,15,32,32,,,,,,,,,,,,,,,,,24,21,36,18,33,41,5,41,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0132,Kim Moreno,kmoreno8@ford.com,hr,talent_acquisition,,,,,,,,,,,28,39,35,7,,,,,,,,,,,,,,,,,28,28,26,20,9,40,35,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0133,Kimberly Thomas,kthomas4@ford.com,leadership,supervisor,,,,,,,,,,,,,,,,,26,,,,,,,,,,,,,,,,,,,,,,21,94.34,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0134,Susan Wilkinson,swilkinson2@ford.com,engineering,data_engineer,24,6,43,28,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,13,46,17,3
+E0135,Katherine Bass,kbass20@ford.com,sales,sales_rep,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,36,36,25,42,47,,,,,,,,
+E0136,Daniel Grant,dgrant28@ford.com,support,it_support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,20,7,14,,,,,,,,,,,,,,,,,,,,,,
+E0137,Daniel Jones,djones6@ford.com,hr,talent_acquisition,,,,,,,,,,,19,10,38,43,,,,,,,,,,,,,,,,,1,3,4,24,19,35,4,44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0138,Alexander Henderson,ahenderson25@ford.com,marketing,digital_marketer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,30,4,,,,,,,,,,,,,,,,,,
+E0139,Ashley Hodge,ahodge20@ford.com,sales,sales_rep,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42,50,49,29,39,9,,,,,,,,
+E0140,Sheryl Yang,syang28@ford.com,hr,human_relations,,,,,,,,,,,27,33,41,18,28,30,35,8,27,46,39,21,42,18,34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0141,Brandy Clark,bclark6@ford.com,leadership,manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28,91.57,40,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0142,Terrence Hayes,thayes1@ford.com,hr,talent_acquisition,,,,,,,,,,,39,22,1,42,,,,,,,,,,,,,,,,,27,20,46,38,0,43,24,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0143,Thomas Mullins,tmullins21@ford.com,leadership,supervisor,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,41,99.31,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0144,Elizabeth Daniels,edaniels1@ford.com,marketing,digital_marketer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,49,7,12,,,,,,,,,,,,,,,,,,
+E0145,Donald Mitchell,dmitchell13@ford.com,sales,account_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,47,38,9,12,28,9,,,,,,,,
+E0146,Taylor King,tking6@ford.com,hr,talent_acquisition,,,,,,,,,,,33,31,14,27,,,,,,,,,,,,,,,,,50,12,6,14,14,5,24,37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E0147,Shannon Woods,swoods17@ford.com,marketing,brand_manager,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41,30,48,38,,,,,,,,,,,,,,,,,,
+E0148,Donald Patel,dpatel3@ford.com,support,call_center,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,34,6,11,,,,,,,,,,,,,,,,21,,,,,,,
+E0149,James Martinez,jmartinez28@ford.com,support,call_center,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,38,40,25,,,,,,,,,,,,,,,,50,,,,,,,
+E0150,Garrett Johnson,gjohnson19@ford.com,sales,sales_rep,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22,31,12,13,17,44,,,,,,,,
