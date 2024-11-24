@@ -12,6 +12,16 @@ They are effectively observations about the performance of the employee.
 '''
 
 class Performance_metrics:
+
+    dept_num = {
+        1 : "engineering",
+        2 : "HR",
+        3: "Marketing",
+        4: "Sales",
+        5: "Support",
+        6: "Leadership"
+    }
+    
     def __init__(self, department, role):
         self.role = role
         self.department = department
@@ -127,21 +137,38 @@ class Performance_metrics:
                 
         elif department == "Marketing":
             metrics = {
-                
+                "campaign_roi": 0,
+                "leads_generated": 0,
+                "social_media_engagement": 0,
             }
+
         elif department == "Sales":
             
             metrics = {
+                "revenue_generated": 0, #Total sales revenue from cars
+                "deals_closed": 0, #Number of cars sold
+                "leads_assigned": 0, #Number of leads assigned by marketing
+                "conversion_rate": 0, #Number of leads turned into customers
+                "avg_sales_cycle": 0, #Average time taken to close a deal
+                "additional_sales_revenue": 0 #Revenue generated from selling service, warranty contracts                
                 
             }
         elif department == "Support":
             
             metrics = {
+                "tickets_resolved": 0, #Number of tickets resolved
+                "satisfaction_score": 0, #Satisfaction from the receiver
+                "avg_response_time": 0, #Time taken to respond to a ticket
+                "escalation_rate": 0 #Tickets escalated for further assistance
                 
             }
         elif department == "Leadership":
             
             metrics = {
+                "goal_achievement": 0,
+                "team_retention_rate": 0,
+                "innovation_index": 0, #Number of new initiatives started
+                "budget_adherence": 0 #Percentage over/under budget
                 
             }
             
