@@ -36,7 +36,7 @@ class Performance_metrics:
                 "tickets_finished": 0,
                 "prs_opened_per_week": 0,
                 "prs_merged_per_week": 0,
-                "prs_rejected_per_week": 0
+                "prs_rejected_per_week": 0              
             }
     
             # Additional metrics based on role
@@ -47,7 +47,7 @@ class Performance_metrics:
                     "features_deployed": 0,
                     "code_review_quality_score": 0  # 1-10
                 })
-
+   
             elif role == "devops_engineer":
                 metrics.update({
                     "deployments_made": 0,
@@ -132,9 +132,22 @@ class Performance_metrics:
             metrics = {
                 "campaign_roi": 0,
                 "leads_generated": 0,
-                "social_media_engagement": 0,
                 "marketing_initiatives_taken": 0
             }
+
+            if role == "content_creator":
+                metrics.update({
+                    "content_created": 0,
+                    "content_approved": 0
+                })
+            elif role == "digital_marketer":
+                metrics.update({
+                    "social_media_engagement": 0,
+                })
+            elif role == "brand_manager":
+                metrics.update({
+                    "campaigns_launched": 0
+                })
 
         elif department == "sales":
             
@@ -150,9 +163,9 @@ class Performance_metrics:
         elif department == "support":
             
             metrics = {
+                "tickets_assigned": 0,
                 "tickets_resolved": 0, #Number of tickets resolved
                 "satisfaction_score": 0, #Satisfaction from the receiver
-                "avg_response_time": 0, #Time taken to respond to a ticket
                 "escalation_rate": 0 #Tickets escalated for further assistance
             }
 
@@ -178,12 +191,15 @@ class Performance_metrics:
             
             elif role == "manager":
                 metrics.update({
+                    "reviews_conducted": 0,
                     "team_retention_rate": 0
                 })
 
             elif role == "supervisor":
                 metrics.update({
-                    "employee_engagement_sessions": 0
+                    "employee_engagement_sessions": 0,
+                    "team_escalations_assigned" : 0,
+                    "team_escalations_resolved" : 0
                 })
             
         return metrics
