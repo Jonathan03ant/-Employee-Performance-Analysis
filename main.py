@@ -1,14 +1,35 @@
 from Employee import Employee
+from data_loader import load_employee_from_csv
 
 #Demo To Create The Employee
 #performance_metrics will initialize the metrics (percepts or sensors based on the passed dpt, and role)
 employee_1 = Employee(employee_id="001", 
                       name="Emp_A", 
                       department="HR", 
+                      email="fordford@ford.com",
                       role="HR",
                       salary=50000)
 
 employee_1.print_employee()
+
+print("Populating from csv")
+employees = load_employee_from_csv()
+
+#printing employees
+for emp in employees[:10]:
+    emp.print_employee()
+    print(emp.get_performance_metrics()) 
+
+
+
+
+
+
+
+
+
+
+
 
 '''
     Possible steps
@@ -30,5 +51,4 @@ employee_1.print_employee()
             (A= Return employyes with Something = "Promote")
             (B= Return employyes with Something = "Give Warning")
             (C= Return employyes with Something = "...")
-
 '''
