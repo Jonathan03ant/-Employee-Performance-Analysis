@@ -46,7 +46,6 @@ class Evaluator:
         tickets_assigned = e.get_metrics_attribute("tickets_assigned")
         tickets_finished = e.get_metrics_attribute("tickets_finished")
         prs_opened = e.get_metrics_attribute("prs_opened_per_week")
-        prs_merged = e.get_metrics_attribute("prs_merged_per_week")
         prs_rejected = e.get_metrics_attribute("prs_rejected_per_week")
 
         if tickets_finished < 200 or (tickets_finished/tickets_assigned)<0.8:
