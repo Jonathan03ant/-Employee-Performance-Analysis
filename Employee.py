@@ -2,7 +2,7 @@
 from PerformanceMetrics import Performance_metrics
 
 class Employee:
-    def __init__(self, employee_id, name, department, role, salary):
+    def __init__(self, employee_id, email, name, department, role, salary):
         
         """
         Represents an Employee with relevant information and metrics tracking.
@@ -20,9 +20,10 @@ class Employee:
         self.employee_id = employee_id
         self.name = name
         self.department = department
+        self.email = email
         self.role = role
         self.salary = salary
-        self.performance_metrics = Performance_metrics(role, department) #returns a metrix dict
+        self.performance_metrics = Performance_metrics(department,role) #returns a metrix dict
         self.performance_summary = ""
         
     def get_performance_metrics(self):
@@ -41,6 +42,7 @@ class Employee:
         """
         print(f"Employee ID: {self.employee_id}")
         print(f"Name: {self.name}")
+        print(f"Name: {self.email}")
         print(f"Role: {self.role}")
         print(f"Department: {self.department}")
         print(f"Salary: {self.salary}")
