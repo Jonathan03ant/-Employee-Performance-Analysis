@@ -60,6 +60,13 @@ class Performance_metrics:
                     "test_documentation_created": 0
                 })
 
+            elif role.lower() == "data_engineer":
+                metrics.update({
+                    "etl_jobs_deployed": 0,
+                    "data_quality_issues_fixed": 0,
+                    "data_latency_improvements": 0
+                })
+
         # HR Department
         elif department.lower() == "hr":
             metrics = {
