@@ -32,6 +32,10 @@ class Employee:
         """
         return self.performance_metrics.metrics
     
+    def get_metrics_attribute(self, attr):
+
+        return self.performance_metrics.metrics[attr]
+    
     def print_employee(self):
         """
         Prints the details of the employee, excluding the performance summary.

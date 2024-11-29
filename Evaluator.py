@@ -1,5 +1,5 @@
 from Employee import Employee
-from PerformanceMetrics import Performance_metrix
+from PerformanceMetrics import Performance_metrics
 
 '''
     Evaluator Class:
@@ -19,7 +19,8 @@ class Evaluator:
     def __init__(self):
         pass
     
-    def evaluate_employee(self, conditions: list , employee: Employee):
+    # def evaluate_employee(self, conditions: list , employee: Employee):
+    def evaluate_employee(self, employee: Employee):
         """
         conditions are functions that evaluate specific performance metrics of an employee.
         employee: An instance of the Employee class to evaluate
@@ -29,8 +30,6 @@ class Evaluator:
             - Evaluates the employee performance based on these collected values
             - Updates the employee's performance summary
         """
-<<<<<<< Updated upstream
-=======
 
         if employee.department ==  "engineering":
             employee.print_employee()
@@ -169,11 +168,7 @@ class Evaluator:
                 nps_score-=1
             elif latency_improvement >= 15:
                 nps_score+=1
-        
 
-
-
->>>>>>> Stashed changes
     def employee_sale_state(self, employee: Employee):
         # Returns the current state of the employee's sale, given that the employee is in X role
         if employee.role == "Sales":
