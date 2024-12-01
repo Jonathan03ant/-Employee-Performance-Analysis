@@ -148,11 +148,26 @@ class Evaluator:
             elif automation >= 75:
                 nps_score += 1
 
-        # elif e.role == "data_engineer":
-        #     print("Data Eval")
-        
+        elif e.role == "data_engineer":
+            print("Data Eval")
+            etl_jobs = e.get_metrics_attribute("etl_jobs_deployed")
+            data_quality_fixes = e.get_metrics_attribute("data_quality_issues_fixed")
+            latency_improvement = e.get_metrics_attribute("data_latency_improvements")
 
+            if etl_jobs < 20:
+                nps_score -= 1
+            elif etl_jobs >= 25:
+                nps_score +=1
 
+            if data_quality_fixes<150:
+                nps_score -= 1
+            elif data_quality_fixes >= 200:
+                nps_score += 1
+            
+            if latency_improvement<10:
+                nps_score-=1
+            elif latency_improvement >= 15:
+                nps_score+=1
 
     def employee_sale_state(self, employee: Employee):
         # Returns the current state of the employee's sale, given that the employee is in X role
