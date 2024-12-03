@@ -255,7 +255,7 @@ class Evaluator:
 
 
     def employee_sale_state(self, employee: Employee):
-        # Returns the current state of the employee's sale, given that the employee is in X role
+        # Returns the current state eof the employee's sale, given that the employee is in X role
         if employee.role == "Sales":
             return employee.get_performance_metrics().get("sales_made", 0)
         else:
