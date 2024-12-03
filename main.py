@@ -1,6 +1,7 @@
 from Employee import Employee
 from data_loader import load_employee_from_csv
 from Evaluator import Evaluator
+from MainWindow import UI, QApplication, sys
 
 #Demo To Create The Employee
 #performance_metrics will initialize the metrics (percepts or sensors based on the passed dpt, and role)
@@ -23,6 +24,17 @@ for emp in employees[:10]:
     emp.print_employee()
     print(emp.get_performance_metrics()) 
     print("-----------------------------")
+    
+# Run Window
+app = QApplication(sys.argv)
+window = UI()
+
+# Populate Window
+for emp in employees:
+    window.add_entry(emp)
+
+window.show()
+sys.exit(app.exec())
 
 '''
     Possible steps
