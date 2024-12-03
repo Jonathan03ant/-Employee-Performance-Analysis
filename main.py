@@ -20,7 +20,6 @@ employees = load_employee_from_csv()
 
 #printing employees
 for emp in employees[:10]:
-    evaluator.evaluate_employee(emp)
     emp.print_employee()
     print(emp.get_performance_metrics()) 
     print("-----------------------------")
