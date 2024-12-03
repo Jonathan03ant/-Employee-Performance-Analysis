@@ -108,6 +108,28 @@ class Performance_metrics:
                     "average_resolution_time": 0,
                     "avg_response_time": 0
                 })
+        
+        # Marketing Department
+        elif department.lower() == "marketing" :
+            metrics = {
+                "leads_generated": 0,
+                "campaign_roi": 0,
+                "marketing_initiatives_taken": 0
+            }
+
+            if role.lower() == "content_creator" :
+                metrics.update({
+                })
+                
+            if role.lower() == "digital_marketer":
+                metrics.update({
+                    "social_media_engagement": 0,
+                })
+            
+            if role.lower() == "brand_manager":
+                metrics.update({
+                    
+                })
 
         # Default Case
         else:

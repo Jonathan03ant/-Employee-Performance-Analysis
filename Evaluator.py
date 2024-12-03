@@ -38,6 +38,8 @@ class Evaluator:
             print("HR")
         elif employee.department == "support":
             print("support")
+        elif employee.department == "marketing":
+            print("marketing")
         
 
 
@@ -168,6 +170,7 @@ class Evaluator:
                 nps_score-=1
             elif latency_improvement >= 15:
                 nps_score+=1
+
 
     def employee_sale_state(self, employee: Employee):
         # Returns the current state of the employee's sale, given that the employee is in X role
