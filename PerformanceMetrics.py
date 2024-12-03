@@ -178,8 +178,11 @@ class Performance_metrics:
                 })
             
             if role.lower() == "brand_manager":
+                
                 metrics.update({
-                    
+                    "campaigns_launched": 0,
+                    "brand_awareness_score": 0,  # A score representing the impact of branding activities
+                    "customer_feedback_collected": 0  # Surveys and feedback related to the brand perception
                 })
         
         return metrics
