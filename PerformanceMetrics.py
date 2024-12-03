@@ -162,18 +162,17 @@ class Performance_metrics:
                 })
         
         # Marketing Department
-        elif department.lower() == "marketing" :
+        elif department.lower() == "marketing":
+            
             metrics = {
                 "leads_generated": 0,
                 "campaign_roi": 0,
                 "marketing_initiatives_taken": 0
             }
 
-            if role.lower() == "content_creator" :
-                metrics.update({
-                })
+            #content_creator   
+            if role.lower() == "content_creator":
                 
-            if role.lower() == "digital_marketer":
                 metrics.update({
                     "social_media_engagement": 0,
                 })
@@ -181,15 +180,6 @@ class Performance_metrics:
             if role.lower() == "brand_manager":
                 metrics.update({
                     
-                })
-
-            # Supervisor
-            elif role == "supervisor":
-                
-                metrics.update({
-                    "employee_engagement_sessions": 0,
-                    "team_escalations_assigned" : 0,
-                    "team_escalations_resolved" : 0
                 })
         
         return metrics
