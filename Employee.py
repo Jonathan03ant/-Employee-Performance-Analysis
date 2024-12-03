@@ -24,7 +24,7 @@ class Employee:
         self.role = role
         self.salary = salary
         self.performance_metrics = Performance_metrics(department,role) #returns a metrix dict
-        self.performance_summary = ""
+        self.nps = 0.0
         
     def get_performance_metrics(self):
         """
@@ -47,3 +47,4 @@ class Employee:
         print(f"Department: {self.department}")
         print(f"Salary: {self.salary}")
         print(f"Metrics: {self.get_performance_metrics()}")
+        print()
