@@ -160,7 +160,16 @@ class Performance_metrics:
                     "reviews_conducted": 0,
                     "team_retention_rate": 0
                 })
-        
+                
+            #Supervisor
+            elif role == "supervisor":
+                
+                metrics.update({
+                    "employee_engagement_sessions": 0,
+                    "team_escalations_assigned" : 0,
+                    "team_escalations_resolved" : 0
+                })
+
         # Marketing Department
         elif department.lower() == "marketing":
             
