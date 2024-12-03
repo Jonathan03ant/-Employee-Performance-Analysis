@@ -23,6 +23,7 @@ class Performance_metrics:
 
         # ENGINEERING Department
         if department.lower() == "engineering":
+            
             metrics = {
                 "tickets_assigned": 0,
                 "tickets_finished": 0,
@@ -33,6 +34,7 @@ class Performance_metrics:
 
             # Software Engineer Metrics
             if role.lower() == "software_engineer":
+                
                 metrics.update({
                     "commits_per_week": 0,
                     "bugs_fixed": 0,
@@ -42,6 +44,7 @@ class Performance_metrics:
 
             # DevOps Engineer Metrics
             elif role.lower() == "devops_engineer":
+                
                 metrics.update({
                     "deployments_made": 0,
                     "incidents_resolved": 0,
@@ -52,6 +55,7 @@ class Performance_metrics:
 
             # Test Engineer Metrics
             elif role.lower() == "test_engineer":
+                
                 metrics.update({
                     "test_cases_written": 0,
                     "test_cases_executed": 0,
@@ -69,6 +73,7 @@ class Performance_metrics:
 
         # HR Department
         elif department.lower() == "hr":
+            
             metrics = {
                 "interviews_facilitated": 0,
                 "offers_facilitated": 0,
@@ -78,6 +83,7 @@ class Performance_metrics:
 
             # Human Relations
             if role.lower() == "human_relations":
+                
                 metrics.update({
                     "offers_completed": 0,
                     "employee_satisfaction_score": 0,
@@ -87,6 +93,7 @@ class Performance_metrics:
 
             # Talent Acquisition
             elif role.lower() == "talent_acquisition":
+                
                 metrics.update({
                     "interns_recruited_for_interview": 0,
                     "interns_recruited_for_offer": 0,
@@ -94,19 +101,64 @@ class Performance_metrics:
                     "early_career_recruited_for_offer": 0
                 })
 
-        # SUPPORT Department
-        elif department.lower() == "support":
+        # Sales Departement
+        elif department == "sales":
+            
             metrics = {
-                "tickets_resolved": 0,
-                "satisfaction_score": 0,
-                "escalation_rate": 0,
-                "average_resolution_time": 0
+                "revenue_generated": 0, #Total sales revenue from cars
+                "deals_closed": 0, #Number of cars sold
+                "leads_assigned": 0, #Number of leads assigned by marketing
+                "conversion_rate": 0, #Number of leads turned into customers
+                "avg_sales_cycle": 0, #Average time taken to close a deal
+                "additional_sales_revenue": 0 #Revenue generated from selling service, warranty contracts                
+            }
+            
+        # Support Department    
+        elif department == "support":
+            
+            metrics = {
+                "issues_assigned": 0,
+                "issues_resolved": 0, #Number of tickets resolved
+                "satisfaction_score": 0, #Satisfaction from the receiver
+                "escalation_rate": 0 #Tickets escalated for further assistance
             }
 
-            if role.lower() == "it_support":
+            # Call Center
+            if role == "call_center":
+                
                 metrics.update({
-                    "average_resolution_time": 0,
-                    "avg_response_time": 0
+                    "calls_answered": 0
+                })
+                
+            # IT Support    
+            elif role == "it_support":
+                
+                metrics.update({
+                    "average_resolution_time": 0
+                })
+                
+        # Leadership Departement        
+        elif department == "leadership":
+            
+            metrics = {
+                "goal_achievement": 0,
+                "budget_adherence": 0.0 #Percentage over/under budget
+            }
+            
+            # Exex Leader
+            if role == "executive":
+                
+                metrics.update({
+                    "employee_engagement_score": 0,
+                    "innovation_index": 0
+                })
+            
+            #Manager
+            elif role == "manager":
+                
+                metrics.update({
+                    "reviews_conducted": 0,
+                    "team_retention_rate": 0
                 })
         
         # Marketing Department
@@ -131,10 +183,13 @@ class Performance_metrics:
                     
                 })
 
-        # Default Case
-        else:
-            metrics = {
-                "attendance_rate": 0
-            }
+            # Supervisor
+            elif role == "supervisor":
+                
+                metrics.update({
+                    "employee_engagement_sessions": 0,
+                    "team_escalations_assigned" : 0,
+                    "team_escalations_resolved" : 0
+                })
         
         return metrics
