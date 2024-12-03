@@ -85,10 +85,9 @@ class Performance_metrics:
             if role.lower() == "human_relations":
                 
                 metrics.update({
-                    "offers_completed": 0,
                     "employee_satisfaction_score": 0,
                     "employee_engagement_sessions": 0,
-                    "recognition_awards_given": 0
+                    "training_sessions_organized": 0
                 })
 
             # Talent Acquisition
@@ -124,14 +123,14 @@ class Performance_metrics:
             }
 
             # Call Center
-            if role == "call_center":
+            if role.lower() == "call_center":
                 
                 metrics.update({
                     "calls_answered": 0
                 })
                 
             # IT Support    
-            elif role == "it_support":
+            elif role.lower() == "it_support":
                 
                 metrics.update({
                     "average_resolution_time": 0
@@ -146,7 +145,7 @@ class Performance_metrics:
             }
             
             # Exex Leader
-            if role == "executive":
+            if role.lower() == "executive":
                 
                 metrics.update({
                     "employee_engagement_score": 0,
@@ -154,11 +153,18 @@ class Performance_metrics:
                 })
             
             #Manager
-            elif role == "manager":
+            elif role.lower() == "manager":
                 
                 metrics.update({
                     "reviews_conducted": 0,
                     "team_retention_rate": 0
+                })
+
+            elif role.lower() == "supervisor":
+                metrics.update({
+                    "employee_engagement_sessions": 0,
+                    "team_escalations_assigned" : 0,
+                    "team_escalations_resolved" : 0
                 })
         
         # Marketing Department
@@ -175,6 +181,8 @@ class Performance_metrics:
                 
                 metrics.update({
                     "social_media_engagement": 0,
+                    "content_created": 0,
+                    "content_approved": 0
                 })
             
             if role.lower() == "brand_manager":
