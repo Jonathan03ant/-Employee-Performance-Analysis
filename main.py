@@ -44,6 +44,7 @@ for emp in employees:
     if emp.nps > range_dict[emp.department]["high"]:
         range_dict[emp.department]["high"] = emp.nps
 
+
     
 # Run Window
 app = QApplication(sys.argv)
