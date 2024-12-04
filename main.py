@@ -22,7 +22,7 @@ employees = load_employee_from_csv()
 #printing employees
 for emp in employees[:10]:
     emp.print_employee()
-    print(emp.get_performance_metrics()) 
+    print(emp.get_performance_metrics())
     print("-----------------------------")
 
 low = 999

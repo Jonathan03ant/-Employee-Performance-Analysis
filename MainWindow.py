@@ -87,19 +87,32 @@ class UI(QMainWindow):
 		widget_layout.setAlignment(Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignLeft)
 		
 		# Add Important Labels
-		self.add_label(widget_layout, 24, f"{emp.name}")					#Employee Name
-		self.add_label(widget_layout, 18, f"Department: {emp.department}")	#Department
-		self.add_label(widget_layout, 13, f"ID: {emp.employee_id}")			#Employee ID
-		self.add_label(widget_layout, 13, f"Contact: {emp.email}\n")		#Email
+		self.add_label(widget_layout, 24, f"{emp.name}")						#Employee Name
+		self.add_label(widget_layout, 18, f"Department: {emp.department}")		#Department
+		self.add_label(widget_layout, 13, f"ID: {emp.employee_id}")				#Employee ID
+		self.add_label(widget_layout, 13, f"Contact: {emp.email}\n")			#Email
 		
-		self.add_label(widget_layout, 16, f"Role: {emp.role}")				#Role
-		self.add_label(widget_layout, 16, f"Salary: ${emp.salary}\n")		#Salary
+		self.add_label(widget_layout, 16, f"Role: {emp.role}")					#Role
+		self.add_label(widget_layout, 16, f"Salary: ${emp.salary}\n")			#Salary
 		
-		self.add_label(widget_layout, 18, f"Performance Score: {emp.nps}")	#Performance Score
-		self.add_label(widget_layout, 18, f"Performance Summary:\n{emp.performance_summary}")
+		self.add_label(widget_layout, 18, f"Net Performance Score: {emp.nps}")	#Performance Score
+		self.add_label(widget_layout, 18, f"Performance Summary: ")
+
+		#Color Code Performance Summary
+		summary_text = emp.performance_summary
+		summary_lbl = QLabel(summary_text)
+		if summary_text == "Low Performance":
+			summary_lbl.setStyleSheet("color: red; font-size: 18px;")
+		elif summary_text == "Moderate Performance":
+			summary_lbl.setStyleSheet("color: gray; font-size: 18px;")
+		elif summary_text == "High Performance":
+			summary_lbl.setStyleSheet("color: green; font-size: 18px;")
+
+		widget_layout.addWidget(summary_lbl)
+
 
 		# Add entry to list of widgets
-		self.list_display.addItem(f"ID: {emp.employee_id}")
+		self.list_display.addItem(f"{emp.name} - {emp.department}")
 
 		# Add Widget to list
 		widget.setLayout(widget_layout)
