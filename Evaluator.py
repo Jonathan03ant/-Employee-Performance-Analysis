@@ -75,7 +75,6 @@ class Evaluator:
             self.nps_editor(e, (prs_rejected/prs_opened), 0.2, 0.1)       
 
         if e.role == "software_engineer":
-            print("Software Engineer Eval")
             commits = e.get_metrics_attribute("prs_rejected_per_week")
             bugs_fixed = e.get_metrics_attribute("bugs_fixed")
             features = e.get_metrics_attribute("features_deployed")
@@ -91,7 +90,6 @@ class Evaluator:
             
 
         elif e.role == "devops_engineer":
-            print("DevOPs Eval")
             deployments_made = e.get_metrics_attribute("deployments_made")
             incidents = e.get_metrics_attribute("incidents_resolved")
             uptime_percentage = e.get_metrics_attribute("system_uptime_percentage")
@@ -107,7 +105,6 @@ class Evaluator:
             
 
         elif e.role == "test_engineer":
-            print("Test Eval")
             test_written = e.get_metrics_attribute("test_cases_written")
             test_executed = e.get_metrics_attribute("test_cases_executed")
             bugs_reported = e.get_metrics_attribute("bugs_reported")
@@ -123,7 +120,6 @@ class Evaluator:
             
 
         elif e.role == "data_engineer":
-            print("Data Eval")
             etl_jobs = e.get_metrics_attribute("etl_jobs_deployed")
             data_quality_fixes = e.get_metrics_attribute("data_quality_issues_fixed")
             latency_improvement = e.get_metrics_attribute("data_latency_improvements")
@@ -228,7 +224,8 @@ class Evaluator:
             escalations_resolved = e.get_metrics_attribute("team_escalations_resolved")
 
             self.nps_editor(e, engagement_sessions, 4, 8)
-            self.nps_editor(e, (escalations_resolved/escalations_assigned), 0.9, 0.95)
+            if escalations_assigned>0:
+                self.nps_editor(e, (escalations_resolved/escalations_assigned), 0.9, 0.95)
     
     def evaluate_marketing(self, e):
         leads_generated = e.get_metrics_attribute("leads_generated")
@@ -246,7 +243,8 @@ class Evaluator:
 
             self.nps_editor(e, media_engagement, 300000,500000)
             self.nps_editor(e, content_created, 50, 70)
-            self.nps_editor(e, (content_created/content_approved), 0.7, 0.8) 
+            if content_approved > 0:
+                self.nps_editor(e, (content_created/content_approved), 0.7, 0.8) 
 
         
         elif e.role == "brand_manager":
