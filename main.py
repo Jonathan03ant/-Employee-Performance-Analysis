@@ -27,17 +27,23 @@ for emp in employees[:10]:
 
 low = 999
 high = -999
+
+range_dict = {
+    "engineering": {"low" : 999, "high" : -999},
+    "hr": {"low" : 999, "high" : -999},
+    "sales":{"low" : 999, "high" : -999},
+    "support": {"low" : 999, "high" : -999},
+    "marketing": {"low" : 999, "high" : -999},
+    "leadership": {"low" : 999, "high" : -999},
+}
+
 for emp in employees:
-
     evaluator.evaluate_employee(emp)
-    if emp.nps <low:
-        low = emp.nps
-    
-    if emp.nps > high:
-        high = emp.nps
+    if emp.nps < range_dict[emp.department]["low"]:
+        range_dict[emp.department]["low"] = emp.nps
+    if emp.nps > range_dict[emp.department]["high"]:
+        range_dict[emp.department]["high"] = emp.nps
 
-print(low)
-print(high)
     
 # Run Window
 app = QApplication(sys.argv)
@@ -45,7 +51,7 @@ window = UI()
 
 # Populate Window
 for emp in employees:
-    evaluator.evaluate_nps(emp, low, high)
+    evaluator.evaluate_nps(emp, range_dict[emp.department]["low"], range_dict[emp.department]["high"])
     window.add_entry(emp)
 
 window.show()
