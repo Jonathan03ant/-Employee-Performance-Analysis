@@ -24,6 +24,20 @@ for emp in employees[:10]:
     emp.print_employee()
     print(emp.get_performance_metrics())
     print("-----------------------------")
+
+low = 999
+high = -999
+for emp in employees:
+
+    evaluator.evaluate_employee(emp)
+    if emp.nps <low:
+        low = emp.nps
+    
+    if emp.nps > high:
+        high = emp.nps
+
+print(low)
+print(high)
     
 # Run Window
 app = QApplication(sys.argv)
@@ -31,6 +45,7 @@ window = UI()
 
 # Populate Window
 for emp in employees:
+    evaluator.evaluate_nps(emp, low, high)
     window.add_entry(emp)
 
 window.show()
