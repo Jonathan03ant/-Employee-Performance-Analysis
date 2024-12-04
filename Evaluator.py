@@ -1,5 +1,7 @@
 from Employee import Employee
 from PerformanceMetrics import Performance_metrics
+import numpy as np
+import matplotlib.pyplot as plt
 
 '''
     Evaluator Class:
@@ -63,12 +65,14 @@ class Evaluator:
         #tickets
         self.nps_editor(e, tickets_finished, 200, 300)
 
-        self.nps_editor(e, (tickets_finished/tickets_assigned), 0.8, 0.9)
+        if tickets_assigned>0:
+            self.nps_editor(e, (tickets_finished/tickets_assigned), 0.8, 0.9)
         
         # PRs
         self.nps_editor(e, prs_opened, 3, 5)
         # percent
-        self.nps_editor(e, (prs_rejected/prs_opened), 0.2, 0.1)       
+        if prs_opened> 0:
+            self.nps_editor(e, (prs_rejected/prs_opened), 0.2, 0.1)       
 
         if e.role == "software_engineer":
             print("Software Engineer Eval")
@@ -183,7 +187,8 @@ class Evaluator:
         satisfaction = e.get_metrics_attribute("satisfaction_score")
         escalation_rate = e.get_metrics_attribute("escalation_rate")
 
-        self.nps_editor(e, (issues_resolved/issues_assigned), 0.9, 0.95)
+        if issues_assigned>0:
+            self.nps_editor(e, (issues_resolved/issues_assigned), 0.9, 0.95)
         self.nps_editor(e, satisfaction, 7, 9)
         self.nps_editor(e, escalation_rate, 30, 10)
 
@@ -252,6 +257,33 @@ class Evaluator:
             self.nps_editor(e, campaign_launched, 5, 8)
             self.nps_editor(e, feedbacks, 800, 1000)
             self.nps_editor(e, brand_awareness, 0.7, 0.8)
+
+    def evaluate_nps(self, emp, low, high):
+
+        #Converting the NPS scores to a scale of 0-10 using Linear Interpolation
+        #NPS Score range [a,b]
+        #Scale range [c,d]
+        #NPS Score [x]
+
+        x = emp.nps
+        a = low
+        b = high
+        c = 1
+        d = 10
+        
+        adjusted = abs(((x-a)/(b-a)) * (d-c) + a)+3
+        
+
+        if adjusted<4:
+            # print("Bad")
+            emp.performance_summary = "Low Performance"
+        elif adjusted>=4 and adjusted<7:
+            # print("Ok")
+            emp.performance_summary = "Moderate Performance"
+        elif adjusted >= 7:
+            # print("Good")
+            emp.performance_summary = "High Performance"
+        
 
 
     def employee_sale_state(self, employee: Employee):
