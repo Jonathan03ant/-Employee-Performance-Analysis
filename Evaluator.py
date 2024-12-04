@@ -1,7 +1,6 @@
 from Employee import Employee
 from PerformanceMetrics import Performance_metrics
-import numpy as np
-import matplotlib.pyplot as plt
+
 
 '''
     Evaluator Class:
